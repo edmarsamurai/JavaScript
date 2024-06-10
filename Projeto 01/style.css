@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div {
+    border: 1px solid #fff;
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#main-input {
+    width: 50%;
+    height: 7vh;
+    padding-left: 10px;
+    margin: 20px 0;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.paragraph-js, .text {
+    color: #fff;
+    font-size: 20px;
+}
+
+.main-button {
+    width: 40%;
+    height: 5vh;
+    margin: 20px 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    background: #0f0c29;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background: #24243e;
+}
+
+.main-button:active {
+    opacity: .4;
+}
+
+
+@media screen and (max-width: 810px) {
+    div {
+        width: 90%;
+        height: 70vh;
+    }
+
+    .paragraph-js {
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .main-button {
+        width: 90%;
+    }
+}
